@@ -1,10 +1,10 @@
 ﻿function AddStudent() {
 
 	//Send a request which looks like this:
-	//POST : http://localhost:51380/api/StudentData/AddTeacher
+	//POST : http://localhost:51380/api/StudentData/AddStudent
 	//with POST data of studentfname, studentlname, etc.
 
-	var URL = "http://localhost:51380/api/StudentData/AddTeacher/";
+	var URL = "http://localhost:51380/api/StudentData/AddStudent/";
 
 	//make a variable for request
 	var request = new XMLHttpRequest();
